@@ -1,0 +1,48 @@
+.g-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.chat {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+.chat__column:first-child {
+  display: flex;
+}
+
+.chat__username {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.chat__preview {
+  font-size: 15px;
+}
+
+.chat__content {
+  margin-left: 10px;
+}
+
+.chat__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat__alarm {
+  padding: 2px 5px;
+  border-radius: 50%;
+  background-color: #e65f3e;
+  color: white;
+  font-size: 12px;
+}
+
+.chat__timestamp {
+  font-size: 13px;
+  margin-bottom: 8px;
+}

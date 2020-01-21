@@ -1,0 +1,23 @@
+.find__column {
+  padding: 10px 15px;
+  background-color: rgb(196, 196, 196);
+  border-radius: 5px;
+}
+
+.find__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 15px;
+  border-bottom: 1px solid #b0c6d8;
+}
+
+.find__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__icon i {
+  font-size: 25px;
+  margin-bottom: 10px;
+}

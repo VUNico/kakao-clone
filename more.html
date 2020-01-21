@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -13,82 +14,90 @@
     <title>More / kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">7:56</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-phone-volume"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">58%</span>
-        <i class="fas fa-battery-half"></i>
-      </div>
-    </div>
-    <header class="header">
-      <div class="header__column">
-        <h1 class="header__title">More</h1>
-      </div>
-      <div class="header__column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-expand"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-music"></i>
-        </span>
-        <span class="header__icon">
-          <a href="settings.html">
-            <i class="fas fa-cog"></i>
-          </a>
-        </span>
-      </div>
-    </header>
-    <div class="friends__header">
-      <div class="friends__column friend friend--lg">
-        <img
-          src="images/me.jpg.jpeg"
-          alt="naver"
-          class="g-avatar friend__avatar"
-        />
-        <div class="friend__content">
-          <span class="friend__name">Jimin Lee</span>
-          <span class="friend__status">jiminaleejung@gmail.com</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">7:56</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-phone-volume"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">58%</span>
+          <i class="fas fa-battery-half"></i>
         </div>
       </div>
-      <div class="friends__column">
-        <span class="my-btn">MY</span>
-      </div>
+      <header class="header">
+        <div class="header__column">
+          <h1 class="header__title">More</h1>
+        </div>
+        <div class="header__column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-expand"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-music"></i>
+          </span>
+          <span class="header__icon">
+            <a href="settings.html">
+              <i class="fas fa-cog"></i>
+            </a>
+          </span>
+        </div>
+      </header>
     </div>
-    <main class="more">
-      <ul class="more__list">
-        <li class="more__item">
-          <span class="more__item-icon">
-            <i class="fas fa-gift fa-2x"></i>
-          </span>
-          <span class="more__item-title">Present</span>
-        </li>
-        <li class="more__items">
-          <span class="more__item-icon">
-            <i class="far fa-smile fa-2x"></i>
-          </span>
-          <span class="more__item-title">Imoticon</span>
-        </li>
-        <li class="more__items">
-          <span class="more__item-icon">
-            <i class="fas fa-shopping-cart fa-2x"></i>
-          </span>
-          <span class="more__item-title">Shopping</span>
-        </li>
-        <li class="more__items">
-          <span class="more__item-icon">
-            <i class="fas fa-utensils fa-2x"></i>
-          </span>
-          <span class="more__item-title">Delivery</span>
-        </li>
-      </ul>
+
+    <main class="more__main">
+      <div class="friends__header more__header">
+        <div class="friends__column friend">
+          <img
+            src="images/profile.jpg"
+            alt="naver"
+            class="my-avatar friend__avatar"
+          />
+          <div class="friend__content">
+            <span class="friend__name">Jimin Lee</span>
+            <span class="friend__status more__status"
+              >jiminaleejung@gmail.com</span
+            >
+          </div>
+        </div>
+        <div class="friends__column">
+          <span class="my-btn">MY</span>
+        </div>
+      </div>
+      <div class="more">
+        <ul class="more__list">
+          <li class="more__items">
+            <span class="more__item-icon">
+              <i class="fas fa-gift fa-2x"></i>
+            </span>
+            <span class="more__item-title">Present</span>
+          </li>
+          <li class="more__items">
+            <span class="more__item-icon">
+              <i class="far fa-smile fa-2x"></i>
+            </span>
+            <span class="more__item-title">Imoticon</span>
+          </li>
+          <li class="more__items">
+            <span class="more__item-icon">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+            </span>
+            <span class="more__item-title">Shopping</span>
+          </li>
+          <li class="more__items">
+            <span class="more__item-icon">
+              <i class="fas fa-utensils fa-2x"></i>
+            </span>
+            <span class="more__item-title">Delivery</span>
+          </li>
+        </ul>
+      </div>
     </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="Nav__list-items">
@@ -98,6 +107,7 @@
         </li>
         <li class="Nav__list-items">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__alarm">5</div>
             <i class="far fa-comment"></i
           ></a>
         </li>

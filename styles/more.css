@@ -1,0 +1,32 @@
+.more__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #b0c6d8;
+}
+
+.more__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.more__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__item-title {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.more__status {
+  color: #9e9c9c;
+}

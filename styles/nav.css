@@ -1,0 +1,26 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 30px;
+  position: fixed;
+  width: 500px;
+  bottom: 0px;
+  background-color: #e0b1cf;
+  font-size: 20px;
+  color: #715373;
+}
+
+.nav__list-link {
+  position: relative;
+}
+
+.nav__alarm {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background-color: #e65f3e;
+  color: white;
+  font-size: 12px;
+}
