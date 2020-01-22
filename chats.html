@@ -14,29 +14,64 @@
     <title>Chattings / kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">7:56</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">7:56</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-phone-volume"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">58%</span>
+          <i class="fas fa-battery-half"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-phone-volume"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">58%</span>
-        <i class="fas fa-battery-half"></i>
+      <header class="header">
+        <div class="header__column settings__header">
+          <span class="a-wrapper">
+            <a href="index.html" class="go-back-btn">
+              <i class="fas fa-arrow-left"></i></a
+          ></span>
+          <h1 class="header__title">Grace</h1>
+        </div>
+        <div class="header__column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+      </header>
+    </div>
+
+    <main class="chats__main">
+      <ul class="chattings__list">
+        <span class="chats__timestamp">Monday, January 22, 2020</span>
+        <li class="chats__message mine">
+          <span class="message__timestamp">1:46 PM</span>
+          <div class="message__mine">When r u coming?</div>
+        </li>
+        <li class="chats__message yours">
+          <img src="images/friend.jpg" class="chats__avatar" />
+          <div class="message__content">
+            <span class="message__title">Grace</span>
+            <div class="message__yours">Around 5 maybe</div>
+          </div>
+          <span class="message__timestamp">1:47 PM</span>
+        </li>
+      </ul>
+    </main>
+
+    <div class="chat__write-container">
+      <input type="text" placeholder="Send message" class="chat__write" />
+      <div class="chat__write-column chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column chat__icon">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-hashtag"></i>
       </div>
     </div>
-    <header class="header">
-      <div class="header__column">
-        <a href="more.html" class="go-back-btn">
-          <i class="fas fa-arrow-left"></i
-        ></a>
-        <h1 class="header__title">My Dear Sister</h1>
-      </div>
-      <div class="header__column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-      </div>
-    </header>
+    <div class="big">
+      <span class="big__screen">Please make your screen small!</span>
+    </div>
   </body>
 </html>

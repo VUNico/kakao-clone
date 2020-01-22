@@ -1,0 +1,67 @@
+.mine {
+  animation: mine 1s ease-in-out forwards;
+}
+
+@keyframes mine {
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.yours {
+  animation: yours 1s ease-in-out forwards;
+}
+
+@keyframes yours {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.chat__icon {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.chat__write:focus ~ .chat__icon {
+  opacity: 0;
+}
+
+.chat__write {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.chat__write:focus {
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  transform: translateY(-100px);
+  border: none;
+}
+
+main {
+  animation: mainani 1s ease-in-out forwards;
+}
+
+@keyframes mainani {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: none);
+    opacity: 1;
+  }
+}

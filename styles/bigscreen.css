@@ -1,0 +1,22 @@
+.big {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: #f7df0b;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .big {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  color: #715373;
+}
+
+.header__icon i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.header__column h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.header-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 5px 0px;
+  background-color: white;
+  z-index: 2;
+}
